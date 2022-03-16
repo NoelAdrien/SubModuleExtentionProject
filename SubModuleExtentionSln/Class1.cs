@@ -5,9 +5,9 @@ namespace SubModuleExtentionSln
   public class Customer
   {
     public int Tune { get; set; }
-    public int GetTune()
+    public int GetTune(int multiplicateur)
     {
-      return this.Tune + 100;
+      return this.Tune * multiplicateur;
     }
   }
 }
