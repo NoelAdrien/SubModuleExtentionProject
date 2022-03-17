@@ -4,10 +4,10 @@ namespace SubModuleExtentionSln
 {
   public class Customer
   {
-    public int Tune { get; set; }
-    public int GetTune(int multiplicateur)
+    public int Age { get; set; }
+    public int GetAge (int multiplicateur)
     {
-      return this.Tune * multiplicateur;
+      return this.Age * multiplicateur;
     }
   }
 }
